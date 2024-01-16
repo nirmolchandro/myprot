@@ -1,0 +1,52 @@
+
+:root{
+  --whit:#fff;
+  --bg-color:#21222E;
+  --col-2:#16FFFE;
+  --hov-3:#16ffff7e;
+  --hd-col:#2b2d3d;
+  --hd-c:#8c2943;
+  --common-font: 'Poppins', sans-serif;
+  --common-font: 'Poppins', sans-serif;
+}
+
+/* midea quary 1200px */
+@media (max-width: 1200px){
+  html{
+    font-size: 60%;
+  }
+}
+@media (max-width: 991px){
+  header{
+    padding: 1rem 3%;
+  }
+  section{
+    padding: 5rem 3% 5rem;
+  }
+  footer{
+    padding: 1rem 3%;
+  }
+}
+
+@media (max-width: 768px){
+  #menu-icon{
+    display: block;
+  }
+  .nab-bar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem 3%;
+    width: 100%;
+    background: var(--hd-col);
+    /* border-top: 1rem solid var(--col-2);
+    box-shadow: 0 .5rem 1rem var(--col-2); */
+  }
+ .nav-link{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+    flex-direction: column;
+  }
+}
+
